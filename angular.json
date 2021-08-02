@@ -52,8 +52,10 @@
               "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-                "src/js/datatables-simple-demo.js",
-                "src/js/scripts.js",
+                "node_modules/jquery/dist/jquery.min.js",
+                "node_modules/bootstrap/dist/js/bootstrap.min.js",
+                "src/assets/js/datatables-simple-demo.js",
+                "src/assets/js/scripts.js",
                 "src/assets/demo/chart-area-demo.js",
                 "src/assets/demo/chart-bar-demo.js",
                 "src/assets/demo/chart-pie-demo.js",
