@@ -7,14 +7,25 @@
             </ol>
             <div class="row">
                 <h4>Nb. visites : {{ visites }}</h4>
-                <app-card class="col-xl-3 col-md-6"></app-card>
+                <div *ngFor="let stats of tabCards" class="col-xl-3 col-md-6">
+                    <div class="card bg-dark text-white mb-4">
+                        <div class="card-body">{{ stats.title }}</div>
+                        <hr class="bg-white m-0 p-0">
+                        <div class="card-footer d-flex align-items-center justify-content-between">
+                            <p class="small text-white m-0">{{ stats.content }}</p>
+                            <a class="text-white" href="#">Détail</a>
+                        </div>
+                    </div>
+                    <!-- <app-card></app-card> -->
+                </div>
+                <!-- <app-card class="col-xl-3 col-md-6"></app-card>
                 <app-card-order class="col-xl-3 col-md-6"></app-card-order>
                 <app-card-panier class="col-xl-3 col-md-6"></app-card-panier>
                 <app-card-moy-panier class="col-xl-3 col-md-6"></app-card-moy-panier>
                 <app-card-new-customer class="col-xl-3 col-md-6"></app-card-new-customer>
                 <app-card-reccu-client class="col-xl-3 col-md-6"></app-card-reccu-client>
                 <app-card-abandon-panier class="col-xl-3 col-md-6"></app-card-abandon-panier>
-                <app-card-conversion-commande class="col-xl-3 col-md-6"></app-card-conversion-commande>
+                <app-card-conversion-commande class="col-xl-3 col-md-6"></app-card-conversion-commande> -->
             </div>
             <app-tab-ventes></app-tab-ventes>
         </div>

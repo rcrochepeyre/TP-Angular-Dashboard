@@ -1,5 +1,9 @@
 <div id="layoutSidenav_content">
-    <main>
-        <p *ngFor="let i of [].constructor(20)">orders works!</p>
+    <main class="container">
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-3">
+            <div *ngFor="let i of [].constructor(21)" class="col">
+                <app-order></app-order>
+            </div>
+        </div>
     </main>
 </div>

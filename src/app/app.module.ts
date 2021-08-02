@@ -17,6 +17,7 @@ import { FourOfourComponent } from './four-ofour/four-ofour.component';
 import { ProduitsComponent } from './produits/produits.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ProductComponent } from './product/product.component';
+import { OrderComponent } from './order/order.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ProductComponent } from './product/product.component';
     FourOfourComponent,
     ProduitsComponent,
     OrdersComponent,
-    ProductComponent
+    ProductComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
