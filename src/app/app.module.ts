@@ -12,6 +12,10 @@ import { CardNewCustomerComponent } from './card-new-customer/card-new-customer.
 import { CardReccuClientComponent } from './card-reccu-client/card-reccu-client.component';
 import { CardAbandonPanierComponent } from './card-abandon-panier/card-abandon-panier.component';
 import { CardConversionCommandeComponent } from './card-conversion-commande/card-conversion-commande.component';
+import { TabVentesComponent } from './tab-ventes/tab-ventes.component';
+import { FourOfourComponent } from './four-ofour/four-ofour.component';
+import { ProduitsComponent } from './produits/produits.component';
+import { OrdersComponent } from './orders/orders.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { CardConversionCommandeComponent } from './card-conversion-commande/card
     CardNewCustomerComponent,
     CardReccuClientComponent,
     CardAbandonPanierComponent,
-    CardConversionCommandeComponent
+    CardConversionCommandeComponent,
+    TabVentesComponent,
+    FourOfourComponent,
+    ProduitsComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule,

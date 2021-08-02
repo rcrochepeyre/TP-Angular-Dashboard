@@ -51,7 +51,14 @@
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+                "src/js/datatables-simple-demo.js",
+                "src/js/scripts.js",
+                "src/assets/demo/chart-area-demo.js",
+                "src/assets/demo/chart-bar-demo.js",
+                "src/assets/demo/chart-pie-demo.js",
+                "src/assets/demo/datatables-demo.js",
+            ]
           },
           "configurations": {
             "production": {
