@@ -11,6 +11,7 @@ import { CardMoyPanierComponent } from './card-moy-panier/card-moy-panier.compon
 import { CardNewCustomerComponent } from './card-new-customer/card-new-customer.component';
 import { CardReccuClientComponent } from './card-reccu-client/card-reccu-client.component';
 import { CardAbandonPanierComponent } from './card-abandon-panier/card-abandon-panier.component';
+import { CardConversionCommandeComponent } from './card-conversion-commande/card-conversion-commande.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardAbandonPanierComponent } from './card-abandon-panier/card-abandon-p
     CardMoyPanierComponent,
     CardNewCustomerComponent,
     CardReccuClientComponent,
-    CardAbandonPanierComponent
+    CardAbandonPanierComponent,
+    CardConversionCommandeComponent
   ],
   imports: [
     BrowserModule,
