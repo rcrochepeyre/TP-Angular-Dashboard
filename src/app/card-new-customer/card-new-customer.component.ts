@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./card-new-customer.component.css']
 })
 export class CardNewCustomerComponent implements OnInit {
-    titleCard:string = 'Nb. commandes';
+    titleCard:string = 'Nouveaux clients';
     nbNewCustomers = Math.floor(Math.random() * (300 - 10 + 1)) + 10;
 
     constructor() { }

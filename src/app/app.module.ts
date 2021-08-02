@@ -10,6 +10,7 @@ import { CardPanierComponent } from './card-panier/card-panier.component';
 import { CardMoyPanierComponent } from './card-moy-panier/card-moy-panier.component';
 import { CardNewCustomerComponent } from './card-new-customer/card-new-customer.component';
 import { CardReccuClientComponent } from './card-reccu-client/card-reccu-client.component';
+import { CardAbandonPanierComponent } from './card-abandon-panier/card-abandon-panier.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardReccuClientComponent } from './card-reccu-client/card-reccu-client.
     CardPanierComponent,
     CardMoyPanierComponent,
     CardNewCustomerComponent,
-    CardReccuClientComponent
+    CardReccuClientComponent,
+    CardAbandonPanierComponent
   ],
   imports: [
     BrowserModule,
