@@ -16,6 +16,7 @@ import { TabVentesComponent } from './tab-ventes/tab-ventes.component';
 import { FourOfourComponent } from './four-ofour/four-ofour.component';
 import { ProduitsComponent } from './produits/produits.component';
 import { OrdersComponent } from './orders/orders.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { OrdersComponent } from './orders/orders.component';
     TabVentesComponent,
     FourOfourComponent,
     ProduitsComponent,
-    OrdersComponent
+    OrdersComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
