@@ -21,7 +21,7 @@ export class MainComponent implements OnInit {
         },
         {
             title: "Montant moy. d\'un panier",
-            content: Math.floor(Math.random() * (10000 - 1500 + 1)) + 1500
+            content: Math.floor(Math.random() * (10000 - 1500 + 1)) + 1500 + " €"
         },
         {
             title: "Nouveaux clients",
